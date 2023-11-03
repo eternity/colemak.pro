@@ -1,0 +1,6 @@
+.DS_Store
+*.tsbuildinfo
+/.next/
+/node_modules/
+next-env.d.ts
+pnpm-debug.log*

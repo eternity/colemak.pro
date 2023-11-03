@@ -1,0 +1,13 @@
+{
+  "name": "Colemak Pro",
+  "short_name": "Colemak Pro",
+  "icons": [
+    {
+      "src": "google-touch-icon.png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "display": "fullscreen"
+}
