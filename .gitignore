@@ -4,3 +4,4 @@
 /node_modules/
 next-env.d.ts
 pnpm-debug.log*
+service-account-key.json
