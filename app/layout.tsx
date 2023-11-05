@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -29,8 +29,4 @@ export const metadata: Metadata = {
       url: "/apple-touch-icon.png",
     },
   ],
-};
-
-export const viewport: Viewport = {
-  themeColor: "#000000",
 };
