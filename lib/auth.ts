@@ -9,12 +9,13 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     GoogleProvider,
     EmailProvider({
-      sendVerificationRequest: ({ identifier, url }) =>
-        sendEmail(
-          identifier,
-          "Sign in to your account",
-          `Here is the link to sign in to your account: ${url}`
-        ),
+      sendVerificationRequest: ({ identifier, url, token }) =>
+        sendEmail({
+          to: identifier,
+          subject: "Sign in to your account",
+          text: `Sign in to your account: ${url}`,
+          html: `<p>Sign in to your account: <a href="${url}">${url}</a></p>`,
+        }),
     }),
   ],
 });

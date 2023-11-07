@@ -1,6 +1,17 @@
 import sendgrid from "@sendgrid/mail";
 
-export async function sendEmail(to: string, subject: string, text: string) {
-  sendgrid.setApiKey(`${process.env.SENDGRID_API_KEY}`);
-  await sendgrid.send({ to, subject, text, from: `${process.env.SENDGRID_FROM}` });
+sendgrid.setApiKey(`${process.env.SENDGRID_API_KEY}`);
+
+export async function sendEmail(data: { to: string; subject: string; text: string; html: string }) {
+  try {
+    await sendgrid.send({
+      to: data.to,
+      subject: data.subject,
+      text: data.text,
+      html: data.html,
+      from: `${process.env.EMAIL_FROM}`,
+    });
+  } catch (err: any) {
+    console.error(err);
+  }
 }
