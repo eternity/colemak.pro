@@ -10,8 +10,8 @@ export default function TermsOfServicePage() {
       </p>
 
       <p>
-        Please read these Terms of Service (&ldquo;Terms&rdquo;) carefully before using AMURSKY IT
-        CONSULTING DOO (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) website and mobile
+        Please read these Terms of Service (&ldquo;Terms&rdquo;) carefully before using ETERNITY CAT
+        DOO (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) website and mobile
         application (collectively, the &ldquo;Service&rdquo;). By accessing or using our Service,
         you agree to comply with and be bound by these Terms. If you do not agree to these Terms,
         please do not use our Service.
@@ -63,8 +63,8 @@ export default function TermsOfServicePage() {
       <h2>5. Intellectual Property</h2>
       <p>
         All content and materials available on the Service, including but not limited to text,
-        graphics, logos, images, and software, are the property of AMURSKY IT CONSULTING DOO or its
-        licensors and are protected by copyright, trademark, and other intellectual property laws.
+        graphics, logos, images, and software, are the property of ETERNITY CAT DOO or its licensors
+        and are protected by copyright, trademark, and other intellectual property laws.
       </p>
 
       <h2>6. Disclaimer of Warranties</h2>

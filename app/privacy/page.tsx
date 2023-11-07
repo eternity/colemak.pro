@@ -10,11 +10,11 @@ export default function PrivacyPolicyPage() {
       </p>
 
       <p>
-        This Privacy Policy outlines how AMURSKY IT CONSULTING DOO (&ldquo;we&rdquo;,
-        &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, discloses, and protects your
-        personal information when you use our web and mobile applications (collectively, the
-        &ldquo;Services&rdquo;). We are committed to safeguarding your privacy, and this policy is
-        designed to help you understand how your personal information is handled.
+        This Privacy Policy outlines how ETERNITY CAT DOO (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or
+        &ldquo;our&rdquo;) collects, uses, discloses, and protects your personal information when
+        you use our web and mobile applications (collectively, the &ldquo;Services&rdquo;). We are
+        committed to safeguarding your privacy, and this policy is designed to help you understand
+        how your personal information is handled.
       </p>
 
       <p>

@@ -10,11 +10,11 @@ export default function CookiePolicyPage() {
       </p>
 
       <p>
-        This Cookie Policy explains how AMURSKY IT CONSULTING DOO (&ldquo;we&rdquo;,
-        &ldquo;us&rdquo;, or &ldquo;our&rdquo;) uses cookies and similar tracking technologies on
-        our website and mobile application (collectively, the &ldquo;Service&rdquo;). By using our
-        Service, you consent to the use of cookies as described in this policy. If you do not agree
-        with the use of cookies, you may disable or block them as described in Section 4.
+        This Cookie Policy explains how ETERNITY CAT DOO (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or
+        &ldquo;our&rdquo;) uses cookies and similar tracking technologies on our website and mobile
+        application (collectively, the &ldquo;Service&rdquo;). By using our Service, you consent to
+        the use of cookies as described in this policy. If you do not agree with the use of cookies,
+        you may disable or block them as described in Section 4.
       </p>
 
       <h2>1. What are Cookies?</h2>
