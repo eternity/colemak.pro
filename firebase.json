@@ -5,7 +5,11 @@
   },
   "hosting": {
     "source": ".",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "frameworksBackend": {
       "region": "us-central1",
       "minInstances": 0,
@@ -15,5 +19,24 @@
   },
   "storage": {
     "rules": "storage.rules"
+  },
+  "emulators": {
+    "auth": {
+      "port": 3001
+    },
+    "firestore": {
+      "port": 3002
+    },
+    "hosting": {
+      "port": 3000
+    },
+    "storage": {
+      "port": 3003
+    },
+    "ui": {
+      "enabled": true,
+      "port": 3030
+    },
+    "singleProjectMode": true
   }
 }
