@@ -8,12 +8,15 @@ import Script from "next/script";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EVF4JW4KED" />
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID}`}
+      />
       <Script id="gtag">{`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-EVF4JW4KED');
+        gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID});
       `}</Script>
       <body>{children}</body>
     </html>
