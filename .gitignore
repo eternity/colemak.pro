@@ -1,8 +1,9 @@
 .DS_Store
+*.local
 *.log
 *.tsbuildinfo
-/.firebase/
 /.next/
 /node_modules/
 next-env.d.ts
 pnpm-debug.log*
+service-account.json

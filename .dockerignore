@@ -1,9 +1,0 @@
-.dockerignore
-.env
-.git
-.next
-.vscode
-Dockerfile
-node_modules
-pnpm-debug.log
-service-account-key.json
