@@ -5,20 +5,20 @@ import type { ReactNode } from "react";
 
 import Script from "next/script";
 
+import { AppCheck } from "./app-check";
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID}`}
-      />
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-ZHKH2DEHPJ`} />
       <Script id="gtag">{`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID});
+        gtag('config', 'G-ZHKH2DEHPJ');
       `}</Script>
       <body>{children}</body>
+      <AppCheck />
     </html>
   );
 }
