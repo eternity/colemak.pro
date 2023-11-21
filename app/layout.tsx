@@ -10,12 +10,12 @@ import { AppCheck } from "./app-check";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-ZHKH2DEHPJ`} />
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-9HR8RJYWE5`} />
       <Script id="gtag">{`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-ZHKH2DEHPJ');
+        gtag('config', 'G-9HR8RJYWE5');
       `}</Script>
       <body>{children}</body>
       <AppCheck />

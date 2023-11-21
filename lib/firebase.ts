@@ -4,13 +4,13 @@ export function getApp() {
   return (
     getApps()[0] ??
     initializeApp({
-      apiKey: "AIzaSyAsdCy9Qf8udvEN9tl16V_dRRGNOEFlVac",
-      appId: "1:885172774292:web:4a29dae37709dc0de05b81",
-      authDomain: "outgoing-sneaky-quill.firebaseapp.com",
-      measurementId: "G-ZHKH2DEHPJ",
-      messagingSenderId: "885172774292",
-      projectId: "outgoing-sneaky-quill",
-      storageBucket: "outgoing-sneaky-quill.appspot.com",
+      apiKey: "AIzaSyAJiRr1Ez3tPN3X_7o8MajXkA7dFT1nv1w",
+      appId: "1:630419308507:web:7734d5a84e7d4a464ef1fe",
+      authDomain: "piquant-interesting-rate.firebaseapp.com",
+      measurementId: "G-9HR8RJYWE5",
+      messagingSenderId: "630419308507",
+      projectId: "piquant-interesting-rate",
+      storageBucket: "piquant-interesting-rate.appspot.com",
     })
   );
 }
