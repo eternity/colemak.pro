@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  output: "standalone",
-
   images: {
     domains: ["colemak.pro"],
     deviceSizes: [
@@ -18,16 +16,5 @@ module.exports = {
         pathname: "/**",
       },
     ],
-  },
-
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.colemak.pro" }],
-        destination: "https://colemak.pro/:path*",
-        statusCode: 308,
-      },
-    ];
   },
 };
